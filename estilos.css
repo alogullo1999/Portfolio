@@ -1,0 +1,87 @@
+
+
+
+.texto-rojo {
+    color: red; 
+}
+
+.texto-negro {
+    color: black;
+    font-family: 'Protest Guerrilla', system-ui;
+    padding: 1px;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.texto-verde {
+    color: green;
+}
+
+.texto-azul {
+    color: blue;
+}
+
+
+.sofadi-one-regular {
+    font-family: "Sofadi One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .iconos a {
+    color: white; /* Cambia el color de los íconos */
+    font-size: 20px; /* Ajusta el tamaño de los íconos */
+    margin: 0 10px; /* Añade un margen entre los íconos */
+    transition: color 0.3s ease; /* Efecto suave al cambiar el color */
+
+}
+
+.iconos a:hover {
+    color: #1da1f2; /* Cambia el color cuando se pasa el ratón por encima */
+}
+
+
+.texto-blanco {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: white;
+    padding: 20px;
+    font-weight: 10;
+    text-align: left;
+    font-size: 30px;
+}
+
+
+.nombre-izquierda {
+    color: white;
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.sobremi {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    background-size: 10px;
+    text-align: left;
+
+}
+
+.subtitulos {
+
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+
+
+}

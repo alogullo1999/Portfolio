@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Perfil de Adriel Logullo, estudiante de programación y analista de datos">
+    <meta name="author" content="Adriel Logullo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Sofadi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- Estilos CSS -->
+    <style>
+        /* Menú de navegación */
+        nav {
+            background-color: transparent;
+            padding: 10px;
+            text-align: right;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background-color 0.3s ease;
+            
+        }
+
+        nav ul li a:hover {
+            background-color: grey;
+            border-radius: 10px;
+            
+        }
+
+        .imagen-reducida {
+            width: 300px;
+            height: auto;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(250deg, #020000, #ffffffbc);
+            background-size: 400% 400%;
+            animation: gradient 7s ease infinite;
+            color: white;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 20%;
+            }
+        }
+
+
+
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #dddddd82;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.438);
+            color: black;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 10px;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 95%;
+            padding: 10px;
+            margin: 5px 0 5px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #1c0202;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .iconos a {
+                color: white; 
+                font-size: 60px; 
+                margin: 0 10px; 
+                transition: color 0.3s ease; 
+            }
+            
+        .iconos a:hover {
+                color: black; 
+            }
+    </style>
+</head>
+
+<body>
+
+
+
+<header style = "background: black";>
+
+<nav>
+    <ul>
+        <li><a href="#inicio" style="font-weight: bold;">Home</a></li>
+        <li><a href="#sobre-mi" style="font-weight: bold;">Me</a></li>
+        <li><a href="#proyectos" style="font-weight: bold;">Projects</a></li>
+        <li><a href="#contacto" style="font-weight: bold;">Contact</a></li>
+
+    </ul>
+</nav>
+
+</header>
+
+<div id="inicio">
+    <span class="texto-blanco" >Adriel Logullo,</span>
+    <span class="texto-negro" >Data Analyst</span>
+</div>
+
+<div id="sobre mi" class = sobremi>
+ <p>Actualmente trabajo en MercadoLibre, donde he desarrollado sólidos conocimientos en modelado de tablas,<br> 
+    visualización de datos, generación de reportes, bases de datos y desarrollo de procesos ETL</p>
+
+</div>
+
+
+<!-- Sección Proyectos -->
+<div class="subtitulos" id="proyectos">
+    <h1>Proyectos</h1>
+    <p>
+    </p>
+</div>
+
+<center>
+<img src="C:\Users\alogullo\Downloads\png-transparent-looker-hd-logo-removebg-preview.png" alt="BigQueryImage" width="200" height="auto">
+<img src="C:\Users\alogullo\Desktop\logobigquery.png" alt="BigQueryImage" width="200" height="auto">
+<img src="https://www.selectdistinct.co.uk/wp-content/uploads/2023/03/SQL_Server_Logo-removebg-preview.png" alt="SqlServerImage" width="200" height="auto">
+<img src="C:\Users\alogullo\Desktop\logocsharp.png" alt="c#" width="100" height="auto">
+</center>
+
+
+
+<br>
+<br>
+<br>
+
+
+<div class="container" id="contacto">
+    <h2>Formulario de Contacto</h2>
+    
+    <form action="mailto:adriel_logullo@hotmail.com" method="POST" enctype="text/plain">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+
+
+
+    </form>
+</div>
+
+</body>
+</html>
+
+<footer>
+
+    <div class="iconos"><center>
+
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook" ></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/tu-usuario" target="_blank"><i class ="fab fa-github"></i></a>
+    </center>
+    </div>
+
+</footer>
