@@ -14,13 +14,15 @@
     font-size: 40px;
 }
 
-.texto-verde {
-    color: green;
+.texto-blanco {
+    font-family: "Protest Guerrilla", sans-serif;
+    color: white;
+    padding: 20px;
+    font-weight: 10;
+    text-align: left;
+    font-size: 30px;
 }
 
-.texto-azul {
-    color: blue;
-}
 
 
 .sofadi-one-regular {
@@ -41,14 +43,6 @@
 
 
 
-.texto-blanco {
-    font-family: "Protest Guerrilla", sans-serif;
-    color: white;
-    padding: 20px;
-    font-weight: 10;
-    text-align: left;
-    font-size: 30px;
-}
 
 
 .nombre-izquierda {
@@ -122,11 +116,20 @@ border-radius: 10px;
 
 .iconos a {
         color: white; 
-        font-size: 60px; 
+        font-size: 90px; 
         margin: 0 10px; 
         transition: color 0.3s ease; 
     }
     
 .iconos a:hover {
         color: black; 
+    }
+
+
+
+    .imagenperfil {
+        image-orientation: flip;
+        align-items: right;
+        margin-top: 20px;
+        padding: 100px ;
     }
