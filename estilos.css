@@ -38,9 +38,7 @@
 
 }
 
-.iconos a:hover {
-    color: #1da1f2; /* Cambia el color cuando se pasa el ratón por encima */
-}
+
 
 
 .texto-blanco {
@@ -94,10 +92,6 @@ border-radius: 10px;
 }
 
 
-.label {
-    display: block;
-    margin: 10px 0 10px;
-}
 
 
 
